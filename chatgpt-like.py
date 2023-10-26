@@ -1,8 +1,9 @@
 import openai
 import streamlit as st
 
-openai.api_key = "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"
-# openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
+# from dotenv import load_dotenv
+# load_dotenv()
 
 st.title("ChatGPT-like")
 
